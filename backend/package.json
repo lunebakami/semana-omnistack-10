@@ -1,0 +1,24 @@
+{
+  "name": "semana-omnistack-10",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lunebakami/semana-omnistack-10.git",
+  "author": "Lune Bakami <lune.shinigami@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "sucrase": "^3.12.1"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  }
+}
