@@ -1,12 +1,14 @@
 {
-  "name": "semana-omnistack-10",
+  "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/lunebakami/semana-omnistack-10.git",
   "author": "Lune Bakami <lune.shinigami@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^0.19.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.7"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
@@ -19,6 +21,6 @@
     "sucrase": "^3.12.1"
   },
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/server.js"
   }
 }
