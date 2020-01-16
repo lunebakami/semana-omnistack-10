@@ -21,18 +21,16 @@ module.exports = {
   },
   plugins: [
     'react',
-    'prettier',
+    'prettier'
   ],
   rules: {
     "prettier/prettier": "error",
-    "import/no-named-as-default": "off",
-    "import/no-named-as-default-member": "off",
     "react/jsx-filename-extension" : "off",
-    "jsx-a11y/label-has-associated-control": "off",
-    "no-shadow": "off",
     "camelcase": "off",
-    "no-underscore-dangle": "off",
+    "no-console": "off",
+    "no-use-before-define": "off",
     "react/prop-types": "off",
-    "no-console": "off"
+    "import/no-extraneous-dependencies": "off",
+    "no-underscore-dangle": "off"
   },
 };
