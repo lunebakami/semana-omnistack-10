@@ -21,7 +21,10 @@ module.exports = {
     "class-methods-use-this": "off",
     "no-param-reassign": "off",
     camelcase: "off",
-    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }],
-    "no-undef": "off"
+    "no-unused-vars": ["error", { "argsIgnorePattern": "next", "argsIgnorePattern": "serverWebSocket" }],
+    "no-undef": "off",
+    "no-console": "off",
+    "import/no-cycle": "off",
+    "no-shadow": "off"
   },
 };

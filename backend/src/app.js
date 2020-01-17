@@ -1,5 +1,6 @@
 import express from 'express';
 import cors from 'cors';
+import http from 'http';
 import routes from './routes';
 
 import './database';
@@ -7,6 +8,7 @@ import './database';
 class App {
   constructor() {
     this.server = express();
+    this.serverWebSocket = http.Server(this.server);
 
     this.middlewares();
     this.routes();
@@ -22,4 +24,4 @@ class App {
   }
 }
 
-export default new App().server;
+export default new App().serverWebSocket;
